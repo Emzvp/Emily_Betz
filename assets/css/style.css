@@ -4,7 +4,7 @@ header {
     padding: 0px 0px 20px 0px;
     margin: 0px 30px 20px 10px;
     background:white;
-    border-bottom: 1px solid gray;
+    border-bottom:1px solid gray;
     position:fixed;
     left: -10px;
     top:0px;
@@ -29,6 +29,7 @@ header {
     clear:both;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    right:10px;
     color: rgb(43, 209, 154);
 }
 .body {
@@ -38,7 +39,7 @@ header {
     box-shadow: 1px 1px 1px 1px;
     float:right;
     width: 70%;
-    height:600px;
+    height:650px;
     
 
 }
@@ -48,7 +49,13 @@ header {
     line-height: 190%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:gray;
+    padding: 20px;
 }
+h1 {
+    border-bottom:1px solid lightgray;
+    width: 80%;
+    right:10px;
+    }
 img.floatLeft {
     float: left;
     margin: 5px 15px 15px 15px;
@@ -62,3 +69,4 @@ img.floatLeft {
 
 body{ background-image: url("../images/roughcloth.png");
 }
+
